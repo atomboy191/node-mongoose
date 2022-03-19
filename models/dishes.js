@@ -11,6 +11,9 @@ const dishSchema = new Schema({
     description: {
         type: String,
         required: true
+    },
+    hobby: {
+        type: String
     }
 }, {
     timestamps: true
